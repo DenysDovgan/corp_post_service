@@ -25,6 +25,16 @@ dependencies {
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 
     /**
+     * Amazon S3
+     */
+    implementation("com.amazonaws:aws-java-sdk-s3:1.12.481")
+
+    /**
+     * Thumbnails dependency, convert image resolution
+     */
+    implementation("net.coobird:thumbnailator:0.4.14")
+
+    /**
      * Database
      */
     implementation("org.liquibase:liquibase-core")
